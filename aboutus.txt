@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About us</title>
+    <style>
+        body{
+            background-image: url(images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            backface-visibility: hidden;
+        }
+        #aboutus{
+            text-align: center;
+        }
+        #cont{
+            display: flex;
+            margin-left: 5%;
+        }
+        img{
+            margin-left: 50%;
+        }
+        #b{
+            text-align: center;
+        }
+        #aboutus{
+        font-size: 150%;
+        }
+        button{
+            color: white;
+            font-size: 250%;
+            background-color: #13005A;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="aboutus">
+        <i><h1>About Us</h1></i>
+    </div>
+    <div id="cont">
+        <div id="c1">
+            <h1>Learn the secret of a happy life</h1>
+            <p>Water purification is not designed only for drinking, it can help in industrial, medicine and scientific applications. There are a lot of methods of water purification. Water takes 70% in human body, and if we will drink unsafe water, minimum 70% of our body will be affected. </p>
+            <p>UV Water Purification, UV stands for Ultra Violet. UV systems can destroy 99.99% of harmful to our body microorganisms with no chemicals or making your water taste or look different. United States FDA approved it in the top 4 techniques to purify water. Ultra Violet Water Purification proved to be quick, cost effective and reliable method of purifying water. UV is safe, clean and easy method</p>
+        </div>
+        <div id="c2">
+            <img src="images/pm2.jpeg" height="80%" width="50%">
+        </div>
+    </div>
+    <div id="b">
+        <button>Explore More</button>
+    </div>
+</body>
+</html>

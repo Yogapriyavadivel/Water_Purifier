@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(images/background.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        table{
+            margin-left: 15%;
+            padding: 5%;
+        }
+        #m1{
+            text-align: center;
+        }
+       #i1{
+        margin-left: 50%;
+        color: white;
+        background-color: #13005A;
+       }
+       h2{
+        margin-left: 40%;
+        font-weight: bold;
+        font-size: 150%;
+       }
+    </style>
+</head>
+<body>
+    <form>
+    <div id="m1">
+        <h1>Product Types</h1>
+    </div>
+    <table>
+        <tr>
+            <td>
+                <h2><i>Type 1</i></h2>
+                <img src="images/p2.jpg" height="50%" width="100%">
+                <input type="submit" id="i1" formaction="product1.html" value="buy">
+            </td>
+            <td>
+                <h2><i>Type 2</i></h2>
+                <img src="images/p3.jpg" height="50%" width="100%">
+                <input type="submit" id="i1"formaction="product2.html" value="buy">
+            </td>
+            <td>
+                <h2><i>Type 3</i></h2>
+                <img src="images/p4.jpg" height="50%" width="100%">
+                <input type="submit" id="i1" formaction="product3.html" value="buy">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

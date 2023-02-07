@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(images/background.jpg);
+            background-size: 100%;
+        }
+        #c1{
+            text-align: center;
+        }
+        #i1{
+            margin-left: 10.5%;
+        }
+        #i2{
+            margin-left: 10%;
+        }
+        #i3{
+            margin-left:6%;
+        }
+        #i4{
+            margin-left: 10%;
+        }
+        button{
+            color: white;
+            font-size: 150%;
+            background-color: #13005A;
+            margin-left: 14%;
+        }
+    </style>
+</head>
+<body>
+    <div id="c1">
+        <h1>Contact Us</h1>
+    </div>
+    <div id="c2">
+        Name: <input type="text" id="i1"><br><br>
+        E-Mail: <input type="email" id="i2"><br><br>
+        Phone-Number: <input type="number" id="i3"><br><br>
+        Interest: <textarea id="i4"></textarea>
+    </div>
+    <h3>Pleasure to Invite You</h3>
+    <div id="b1">
+        <button>Contact us</button>
+    </div>
+</body>
+</html>

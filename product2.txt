@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #head h1{
+            color: #13005A;
+            text-align: center;
+            font-size: 400%;
+        }
+        table{
+            margin-left: 5%;
+        }
+        #p p{
+            margin-top: 3%;
+            margin-left: 30%;
+            font-weight: bold;
+        }
+        #row1{
+            padding-top: 5%;
+        }
+        #button{
+            text-align: center;
+            font-size: 400%;
+        }
+        #b1{
+            font-size: 50%;
+            color: white;
+            background-color: #13005A;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div id="head">
+        <h1><i>Products type2</i></h1>
+    </div>
+    <table>
+        <tr id="row1">
+            <td id="p">
+                <img src="images/p6.jpg">
+                <p>Model: A1</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p7.jpg">
+                <p>Model: A2</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p8.jpg">
+                <p>Model: A3</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p9.jpg">
+                <p>Model: A4</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p10.jpg">
+                <p>Model: A5</p>
+                <p>price: 150$</p>
+            </td>
+        </tr>
+        <tr id="row2">
+            <td id="p">
+                <img src="images/p11.jpg">
+                <p>Model: A6</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p12.jpg">
+                <p>Model: A7</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p13.jpg">
+                <p>Model: A8</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p14.jpg">
+                <p>Model: A9</p>
+                <p>price: 150$</p>
+            </td>
+            <td id="p">
+                <img src="images/p10.jpg">
+                <p>Model: A10</p>
+                <p>price: 150$</p>
+            </td>
+        </tr>
+    </table>
+    
+    <div id="button">
+        <input type="submit" id="b1" formaction="payment.html" value="Proceed to payment">
+    </div>
+    </form>
+</body>
+</html>

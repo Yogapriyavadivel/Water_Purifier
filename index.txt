@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>water_purifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div  id="h1">
+            <img src="images/logo.jpg" height="100%" width="50%">
+        </div>
+        <div id="h2">
+            <i><a href="index.html">Home</a></i>
+            <i><a href="aboutus.html">About us</a></i>
+            <i><a href="contact.html">Contact</a></i>
+            <i><a href="productmain.html">Product</a></i>
+            <i><a href="feedback.html">Feedback</a></i>
+        </div>
+    </header>
+    <div id="text">
+        <div id="text1">
+            <h1>WATER PURIFIER</h1>
+            <h2>Online Shop</h2>
+            <h3>Live grand with Quality surety</h3>
+            <p>No one can live without water, but we also cannot survive upon dirty, contaminated water</p>
+        </div>
+    </div>
+    <button>Explore More</button>
+</body>
+</html>

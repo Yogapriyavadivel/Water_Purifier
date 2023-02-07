@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    display: flex;
+    padding: 2%;
+}
+#h1 a{
+    padding: 1%;
+    text-decoration: none;
+    margin-left: 1%;
+}
+#text1 :hover{
+    color: aquamarine;
+}
+#h2 a:hover{
+    color: black;
+    font-weight: bold;
+}
+#h1 img{
+    padding-right: 10%;
+    margin-left: 10%;
+}
+#h2{
+    float: left;
+    margin-left: 10%;
+    font-size: 150%;
+    font-weight: bold;
+}
+#h2 a{
+    text-decoration: none;
+    float: left;
+    padding-left: 20px;
+}
+#text{
+    display: flex;
+}
+#text1{
+    color: #13005A;
+    margin-left: 5%;
+}
+#text1 h1{
+    font-size: 300%;
+}
+#text img{
+    margin-left: 10%;
+}
+button{
+    background-color: powderblue;
+    margin-left: 5%;
+    font-size: 100%;
+}

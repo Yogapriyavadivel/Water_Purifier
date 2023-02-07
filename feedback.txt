@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 5%;
+            border: double;
+            background-image: url(images/background.jpg);
+            background-size: 100%;
+        }
+        h1{
+            margin-left: 35%;
+            color: #13005A;
+        }
+        #f1{
+            margin-left: 35%;
+        }
+        button{
+            color: white;
+            font-size: 150%;
+            background-color: #13005A;
+            margin-top: 5%;
+            margin-left: 30%;
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <h1>FEEDBACK FORM</h1>
+    <div id="f1">
+        Name:<input type="text"><br><br>
+        Gender:<input type="radio" id="f" name="f">Female
+        <input type="radio" id="m" name="m">Male <br><br>
+        Year of Study:<select>
+            <option>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            <option>Four</option>
+        </select><br><br>
+        Interest: <br><input type="checkbox" id="v1" value="Excellent">
+        <label for="v1">C</label><br>
+        <input type="checkbox" id="v2" value="Good">
+        <label for="v2"> Java</label><br>
+        <input type="checkbox" id="v3" value="Average">
+        <label for="v3">Python</label><br>
+        <button>Submit</button>
+    </div>
+</body>
+</html>
